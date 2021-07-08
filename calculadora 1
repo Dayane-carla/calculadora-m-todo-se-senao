@@ -1,0 +1,51 @@
+Algoritmo "calculadora"
+
+Var   n1,n2,op,soma,subtracao,divisao,multiplicacao,porcentagem:real
+
+
+
+
+Inicio
+       escreval("==============CALCULADORA====================================")
+       escreva("Digite um número: " )
+       leia (n1)
+       escreva("Digite outro número: ")
+       leia (n2)
+       escreval("Digite a operação desejada:")
+       escreval("-------------------------------------------------------------")
+       escrevaL(" 1 - SOMA")
+       escrevaL(" 2 - SUBTRACÃO")
+       escrevaL(" 3 - DIVISÃO")
+       escrevaL(" 4 - MULTIPLICAÇÃO")
+       escrevaL(" 5 - PORCENTAGEM")
+       escreval("-------------------------------------------------------------")
+       leia(op)
+       
+       se(op=1)entao
+       soma <-n1+n2
+       escreva("Resultado:",soma:4:2)
+       senao
+
+       se(op=2)entao
+       subtracao <-n1-n2
+       escreva("Resultado:",subtracao:4:2)
+       senao
+       
+       se(op=3)entao
+       divisao <-n1/n2
+       escreva("Resultado:",divisao:4:2)
+       senao
+       
+       se (op=4)entao
+       multiplicacao <-n1*n2
+       escreva("Resultado:",multiplicacao:4:2)
+       senao
+        porcentagem<-n1*(n2/100)
+        escreva("Resultado:",porcentagem:4:2)
+
+       fimse
+         fimse
+           fimse
+            fimse
+
+Fimalgoritmo
